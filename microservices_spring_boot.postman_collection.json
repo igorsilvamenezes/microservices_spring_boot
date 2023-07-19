@@ -40,6 +40,33 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "fraud",
+			"item": [
+				{
+					"name": "Fraud Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8081/api/v1/fraud-check/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"api",
+								"v1",
+								"fraud-check",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }
